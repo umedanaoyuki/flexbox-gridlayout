@@ -1,11 +1,10 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* 最小値240px 最大値1fr */
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
   grid-template-rows: 200px 200px;
   gap: 16px;
-  /* column-gap: 16px;
-  row-gap: 30px; */
-  /* border: 5px solid red; */
+  
 }
 
 .item {
