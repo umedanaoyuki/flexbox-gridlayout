@@ -9,9 +9,11 @@
   height: 100vh;
   /* align-items: stretch; */
   /* align-items: flex-start; */
-  align-items: baseline;
+  /* align-items: baseline; */
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
-
+/* 
 .lg {
   font-size: xx-large;
-}
+} */
